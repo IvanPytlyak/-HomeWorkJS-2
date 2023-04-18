@@ -1,0 +1,20 @@
+#modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: rgba(134, 224, 242, 0.875);
+    border: 1px solid black;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    display: none;
+  }
+  
+  #modal-text {
+    margin: 0 0 10px 0;
+  }
+  
+  #modal-ok {
+    padding: 5px 10px;
+  }
